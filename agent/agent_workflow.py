@@ -21,7 +21,7 @@ class GraphBuilder():
         self.calculator_tools= CalculatorTool()
         self.currrency_converter_tools= CurrencyConverterTool()
         self.tools.extend([
-            * self.weaather_tools.weather_tool_list,
+            * self.weather_tools.weather_tool_list,
             * self.place_search_tools.place_search_tool_list,
             * self.calculator_tools.calculator_tool_list,
             * self.currrency_converter_tools.currency_converter_tool_list
