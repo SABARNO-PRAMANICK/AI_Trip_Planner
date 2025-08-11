@@ -11,7 +11,7 @@ class PlaceSearchTool:
         self.google_api_key = os.environ.get("GPLACES_API_KEY")
         self.google_places_search= GooglePlaceSearchTool(self.google_api_key)
         self.tavily_search= TavilyPlaceSearchTool()
-        self.place_search_tool= self._setup_tools()
+        self.place_search_tool_list= self._setup_tools()
     
     def _setup_tools(self) -> List:
         """Setup the place search tools."""
